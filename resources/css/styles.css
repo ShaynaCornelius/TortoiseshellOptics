@@ -1,0 +1,133 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+.header-content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main-content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Header Banner Styles */
+
+.header-background {
+  height: 30rem;
+  background-image: url("../images/glasses-bg.png");
+  width: 100%;
+}
+
+.nav-bar {
+  background-color: cadetblue;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar img {
+  height: 1.5rem;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+nav {
+  padding-left: 19rem;
+}
+
+nav span {
+  padding-right: 2rem;
+}
+
+.moto {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  width: 450px;
+  margin-top: 10rem;
+  margin-left: 380px;
+}
+
+
+/* Main Content Styles */
+
+.main-background {
+  background-color: white;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  text-align: center;
+  padding: 3rem;
+  height: 8rem;
+  width: 5rem;
+}
+
+.icon img {
+  width: 3.5rem;
+}
+
+.icon h3 {
+  padding-top: 1rem;
+}
+
+/* information */
+
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.info-banner {
+  width: 10rem;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem,
+}
+
+.info-banner h2 {
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.info {
+  width: 35%;
+  padding-right: 5%;
+  padding-bottom: 5rem;
+}
+
+.info p {
+  padding-top: 1rem;
+}
+
+
+
+/* Footer Styles */
+
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
