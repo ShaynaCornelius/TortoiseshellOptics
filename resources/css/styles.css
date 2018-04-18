@@ -23,7 +23,9 @@ body {
 .header-background {
   height: 30rem;
   background-image: url("../images/glasses-bg.png");
-  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .nav-bar {
@@ -45,6 +47,10 @@ nav {
 
 nav span {
   padding-right: 2rem;
+}
+
+nav h3 {
+  display: none;
 }
 
 .moto {
@@ -72,6 +78,10 @@ nav span {
 }
 
 .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
   padding: 3rem;
   height: 8rem;
@@ -130,4 +140,126 @@ footer {
 footer img {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
+}
+
+
+/* Responsive Styles*/
+
+/* Tablet Styles */
+
+@media only screen and (max-width: 768px) {
+
+  .header-content {
+    width: 100%;
+  }
+
+  .main-content {
+    width: 100%;
+  }
+
+  nav {
+    padding-left: 5rem;
+  }
+
+  .header-background {
+    height: 22rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .moto {
+    font-size: 1.33rem;
+    padding: 1rem 4rem;
+    margin-top: 5rem;
+    margin-left: 250px;
+    margin-right: 2rem;
+    width: 300px;
+  }
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 480px) {
+
+  nav span {
+    display: none;
+  }
+
+  .nav-bar span {
+    display: none;
+  }
+
+  nav h3 {
+    display: flex;
+    padding-left: 180px;
+  }
+
+  .header-background {
+    height: 17rem;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    background-size: cover;
+  }
+
+  .moto {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    margin-top: 9rem;
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-top: 2.23rem;
+    padding-bottom: 2.23rem;
+  }
+
+  .icon {
+    margin: 0 auto;
+    justify-content: center;
+    height: 4rem;
+    padding-bottom: 1.54rem;
+  }
+
+
+  .icon h3 {
+    font-size: 0.77rem;
+  }
+
+  .information {
+    flex-direction: column;
+  }
+
+  .info-banner {
+    width: 100%;
+  }
+
+  .info-banner h2 {
+    text-align: center;
+  }
+
+  .info {
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+
+  .info p {
+    font-size: 0.77rem;
+    padding-left: 0.5rem;
+  }
+
+  footer span {
+    display: none;
+  }
+
+  footer img {
+    margin: 0 auto;
+  }
+
 }
